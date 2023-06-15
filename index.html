@@ -6,8 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JoyCon</title>
 </head>
+<style>
+    .header {
+        padding: 80px;
+        text-align: center;
+        padding-left: 6px;
+        color: rgb(8, 207, 241);
+        font-size: 16px;    
+    }
+
+    h1 {
+        width: 300px;
+        height: 50px;
+        border: 2px solid black ;
+        position: absolute;             
+    }
+
+    .button{
+        background-color: #e99c0e;
+        border: dotted;
+        color: white;
+        padding: 12px 14px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        margin: 2px 0px;
+        cursor: pointer;
+    }
+    
+</style>
 <body>
-    <!-- buat komponen yang menggambarkan controller @MUTAMA -->
+    <div class="header">
+        <h1>Movement Button</h1>
+    </div>
+    <button class="button">up</button>
+    <a href="#" class="button">left</a>
+    <button class="button">right</button>
+    <input type="button" class="button" value="down">
+    </div>
+    
+    <!-- buat komponen yang menggambarkan controller @MUTAMA --> 
     <!--    [^]                -->
     <!-- [<][v][>]      [B][A] -->
     <!--           atau        -->
